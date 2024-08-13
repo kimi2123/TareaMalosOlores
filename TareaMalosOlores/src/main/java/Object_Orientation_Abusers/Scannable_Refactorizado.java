@@ -5,6 +5,6 @@
 package Object_Orientation_Abusers;
 
 //Refactorizacion: Replace Inheritance with Delegation.
-public interface Printable_Refactorizado {
-    public void print();
+public interface Scannable_Refactorizado {
+    public void scan();
 }

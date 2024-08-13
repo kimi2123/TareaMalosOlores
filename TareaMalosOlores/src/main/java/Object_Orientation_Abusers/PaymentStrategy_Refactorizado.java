@@ -4,7 +4,8 @@
  */
 package Object_Orientation_Abusers;
 
-//Refactorizacion: Replace Inheritance with Delegation.
-public interface Printable_Refactorizado {
-    public void print();
+//Refactorizacion:  Replace Conditional with Polymorphism.
+public interface PaymentStrategy_Refactorizado {
+    public void processPayment();
+
 }
